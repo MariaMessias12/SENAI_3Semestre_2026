@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
+import { estilos } from "../style/Estilos";
 
 import Cabecalho from "../components/Cabecalho";
 import Aula01 from "../components/Aula01";
 import Aula02 from "../components/Aula02";
 import Aula03 from "../components/Aula03";
-
-import { estilos } from "../style/Estilos";
 import Aula04 from "../components/Aula04";
 import Aula05 from "../components/Aula05";
 import Aula06 from "../components/Aula06";
@@ -17,6 +16,7 @@ import Aula11 from "../components/Aula11";
 import Aula12 from "../components/Aula12";
 import Aula13 from "../components/Aula13";
 import Aula14 from "../components/Aula14";
+import Aula15 from '../components/Aula15';
 
 const Principal = () => {
     return (
@@ -40,6 +40,7 @@ const Principal = () => {
                     <Aula12 />
                     <Aula13 />
                     <Aula14 />
+                    <Aula15 />
                 </div>
             </main>
         </div>

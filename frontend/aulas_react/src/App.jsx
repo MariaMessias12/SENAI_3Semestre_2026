@@ -6,6 +6,7 @@ import Perfil from "./pages/Perfil"
 import Contato from "./pages/Contato"
 import Inicio from "./pages/Inicio"
 import Detalhes from "./pages/Detalhes"
+import Filme from "./pages/Filme"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/contato" element={<Contato />} />
                 <Route path="/inicio" element={<Inicio />} />
                 <Route path="/detalhes" element={<Detalhes />} />
+                <Route path="/filme/:id" element={<Filme/>}/>
             </Routes>
         </BrowserRouter>
     )

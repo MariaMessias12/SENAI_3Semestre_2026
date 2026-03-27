@@ -16,6 +16,13 @@ const Aula14 = () => {
             <br />
             <Link to='senai'>Página Inexistente</Link>
             <br />
+            <Link to='/inicio'>Inicio</Link>
+            <br />
+            <Link to='/detalhes'>Detalhes</Link>
+            <br />
+            <Link to='/contato'>Contato</Link>
+            <hr />
+
             <h3>Navegação com programação utilizando o useNavigate</h3>
             <button onClick={() => navigate('/sobre')}>Sobre</button>
 
@@ -23,6 +30,11 @@ const Aula14 = () => {
             <h3>Rota dinâmica com useParams</h3>
             <button onClick={() => navigate('/perfil/Ricardo')}>Perfil do Ricardo</button>
             <button onClick={() => navigate('/perfil/Douglas')}>Perfil do Douglas</button>
+            <hr />
+            <button onClick={() => navigate('/filme/1')}>Filme 1</button>
+            <button onClick={() => navigate('/filme/2')}>Filme 2</button>
+
+
 
 
             
